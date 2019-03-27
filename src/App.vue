@@ -2,9 +2,11 @@
   <v-app>
     <v-toolbar app>
       <v-toolbar-title class="headline text-uppercase">
-        <span>FABELIO</span>
+        <span>FBL</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
+      <v-btn flat to="/">Add Product</v-btn>
+      <v-btn flat to="/list">Product List</v-btn>
     </v-toolbar>
 
     <v-content>
