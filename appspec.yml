@@ -3,6 +3,7 @@ os: linux
 files:
   - source: /
     destination: /home/ec2-user/fbl/fe
+    runas: ec2-user
 
 hooks:
   BeforeInstall:
