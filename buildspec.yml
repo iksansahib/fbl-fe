@@ -9,3 +9,5 @@ phases:
 artifacts:
   files:
     - 'dist/*'
+    - 'appspec.yml'
+    - 'deploy/*'
