@@ -3,4 +3,4 @@ source /home/ec2-user/.bash_profile
 # pm2 start /home/ec2-user/fbl/be/index.js
 
 cd /var/www/html/fbl-fe && npm install
-npm run serve & 1&2 > /dev/null
+npm run build
