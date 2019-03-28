@@ -8,11 +8,12 @@ permissions:
   - object: /home/ec2-user/fbl/fe
     pattern: "**"
     owner: ec2-user
+    group: ec2-user
     mode: 777
     type:
       - directory
       - file
-      
+
 hooks:
   BeforeInstall:
     - location: deploy/before_install.sh
