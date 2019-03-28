@@ -8,6 +8,6 @@ phases:
       - npm run build
 artifacts:
   files:
-    - 'dist/'
+    - 'dist/**/*'
     - 'appspec.yml'
     - 'deploy/*'
