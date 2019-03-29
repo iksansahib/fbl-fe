@@ -15,15 +15,8 @@ npm run serve
 npm run build
 ```
 
-### Run your tests
+## Deployment
 ```
-npm run test
+Deployment is using CodePipeline, CodeBuild, and CodeDeploy in AWYS
+You can just push to master and it will be deployed to AWS EC2 with IP http://13.229.102.166:88
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
