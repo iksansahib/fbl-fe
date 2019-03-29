@@ -40,7 +40,7 @@
         });      
         if(response.data.success){
           alert('Sukses Tersimpan');
-          this.$router.push('/list');
+          this.$router.push('/detail/'+response.data.product_list.id);
         } else {
           alert(`Gagal Tersimpan ${response.data.message.code}`);
         }
